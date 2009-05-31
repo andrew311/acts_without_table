@@ -1,7 +1,8 @@
 ActsWithoutTable
 ================
 
-Introduction goes here.
+Rails plugin for creating models that inherit from ActiveRecord::Base
+but don't require a table in the DB.
 
 
 Example
