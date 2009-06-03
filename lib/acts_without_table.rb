@@ -20,7 +20,7 @@ class ActiveRecord::Base
   def self.acts_without_table(columns = {})
     self.class_inheritable_accessor :acts_without_table_columns
     self.acts_without_table_columns = columns
-    include ActsWithoutDatabase
+    include ActsWithoutTable
   end
   
 end
